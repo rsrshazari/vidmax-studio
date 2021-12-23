@@ -1,0 +1,562 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+.left{
+	width: 17%;
+	height: 750px;
+	position: fixed;
+	background:#fff;
+	float: left;
+	
+}
+.right{
+	width: 100%;
+	height: 1000px;
+	background: #f1f1f1;
+	float: right;
+}
+
+.logo img{
+	width: 35px;
+	height: 36px;
+	margin-top: 20px;
+	margin-left: 30px;
+}
+
+.logo h6{
+ float: left;
+ margin-left: 5px;
+ margin-top: 30px;
+ font-size: 18px;
+ font-family: poppins;
+ font-weight: 600;
+}
+
+#menu {
+ margin-left: 30px;
+ margin-top: 20px;
+ margin-bottom: 8px;
+}
+#menu a {
+  text-decoration: none;
+  color: #808191;
+}
+.top-navbar li {
+  list-style-type: none;
+}
+
+.top-navbar li{
+	margin-bottom: 20px;
+}
+.top-navbar li a {
+	font-size: 15px;
+	text-decoration: none;
+	color: #949494;
+}
+
+.top-navbar li a span {
+	margin-left: 10px;
+}
+.top-navbar li i {
+	font-size: 20px;
+}
+hr {
+	width: 70%;
+	margin-bottom: 0px; 
+	margin-left: 30px;
+}
+
+.bottom-navbar li {
+  list-style-type: none;
+}
+
+.bottom-navbar li{
+	margin-bottom: 20px;
+}
+.bottom-navbar li a {
+	font-size: 15px;
+	text-decoration: none;
+	color: #949494;
+}
+
+.bottom-navbar li a span {
+	margin-left: 10px;
+}
+.bottom-navbar li i {
+	font-size: 20px;
+}
+.right {
+	padding: 10px 50px;
+}
+.design{
+	background: #164acb;
+	border-radius: 10px;
+}
+
+.design-heading {
+	padding: 25px 0px;
+	padding-left: 30px; 
+}
+.design-heading h3{
+	color: #fff;
+	font-weight: 700;
+	font-family: Open Sans;
+	font-size: 27px;
+	line-height: 38px;
+	margin-bottom: 0px;
+}
+
+.design-heading p {
+	font-style: normal;
+	font-size: 14px;
+	color: #fff;
+}
+
+.design-button {
+	background:linear-gradient(to right, #2251ff 30%, #7c869e);
+	margin-top: 40px;
+	width: 150px;
+	text-align: center;
+	border-radius: 10px;
+	padding: 5px 0px 11px 0px;
+	margin-left: 300px;
+}
+.design-button button {
+	text-decoration: none;
+	color: #fff;
+	font-size: 16px;
+	font-family: poppins;
+	font-weight: 400;
+	border-radius :7px;
+}
+.design-button i {
+	color: #fff;
+	font-size: 20px;
+	margin-left: 10px;
+}
+
+
+.search-box{
+	margin-left: 70px;
+	margin-top: -40px;
+	width: 300px;
+	height: 50px;
+	background-color: lightgrey;
+	border-radius: 15px;
+	position: relative;
+}
+.search-box i {
+	position: absolute;
+	margin-left:20px;
+	margin-top: 15px;
+}
+#textbook{
+	line-height: 50px;
+	background: none;
+	border: none;
+	outline: none;
+	font-size: 18px;
+	margin-left: 20px;
+}
+.fa-search{
+	margin-left: 80px;
+	font-size: 20px;
+	color: grey;
+}
+
+
+
+.box{
+      background:#fff;
+      border-radius: 10px;
+      padding: 15px 15px;
+      margin: 25px 0px;
+}
+    .icon-box{
+      display: flex;
+      flex-direction:row;
+      align-items: center;
+    }
+.icon-box .para{
+	  font-size: 20px;
+      margin-left: 70px;
+      font-weight: 600;
+      color: #000;
+}
+.icon{
+      width: 64px;
+      height: 64px;
+      background-color: blue;
+      color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 50%;
+      font-size: 22px;
+    }
+    #icon-1{
+    	background: #89D2DC!important;
+    }
+.view{
+	margin-top: 25px;
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+}
+.view i{
+	margin-left: 15px;
+	color: #949494;
+}
+
+.view-para p {
+	margin:0px;
+	font-size: 13px;
+	color: #949494;
+}
+
+.my-video h5{
+font-weight: 600;
+font-size: 18px;
+margin-top: 5px;
+margin-bottom: 20px;
+}
+.div-3{
+position: relative;
+}
+.div-3-heading{
+	background:rgba(0,0,0,0.85);
+	z-index: 1;
+	position: absolute;
+	left: 0px;
+	bottom: 0;
+	width: 100%;
+	color: #fff;
+	padding: 10px;
+	border-radius: 10px;
+	display: flex;
+	justify-content:space-between;
+}
+.main-div{
+	margin-bottom: 25px;
+}
+
+.div-3-heading h6{
+	font-size: 14px;
+	font-weight: 600;
+	color: #949494;
+}
+.sell {
+	background: #fff;
+	width: 350px;
+	height: 210px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	border-radius: 15px;
+
+}
+.sell .sell-icon{
+	margin-bottom: 20px;
+	font-size: 40px;
+}
+.sell .sell-para h5{
+   font-size: 20px;
+}
+
+.videos-update{
+	display: flex;
+	justify-content: space-between;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	padding-left: 15px;
+	padding-right: 6px;	
+}
+.videos-update h6{
+	font-size: 12px;
+	margin-top: 4px;
+}
+.videos-update i {
+	font-size: 16px;
+}
+
+.search-bar {
+	display: flex;
+	justify-content: space-between;
+	margin-left: 80px;
+	margin-top: -20px;
+}
+.search-box-right {
+	display: flex;
+}
+.search-box-right #search-box-heading  {
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+.search-box-right #search-box-heading h6 {
+	font-weight: 500;
+}
+
+.search-box-right #search-box-icon  {
+	margin-top: 10px;
+	margin-left: 10px;
+	color: #949494;
+}
+
+.search-box-right img {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+}
+.searchText {
+	width:200px;
+	height: 40px;
+	border-radius: 50px;
+	border:none;
+	outline: none;
+	margin-bottom: 50px;
+}
+
+.searchBtn i{
+	color: #949494;
+	margin-left: -30px
+}
+.div-3 img{
+	width: 480px;
+	height: 210px;
+	border-radius: 15px;
+}
+
+
+
+.sidebar2 {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #F8F9FA
+;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }  .sidebar2 a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 16px;
+    color: #000;
+    display: block;
+    transition: 0.3s;
+  }  .sidebar2 a:hover {
+    color: #726F6F
+;
+  }  .sidebar2 .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }  .openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #111;
+    color: white;
+    padding: 1px 15px;
+    border: none;
+  }  .openbtn:hover {
+    background-color: #444;
+  }  #main {
+    transition: .5s;
+   
+  }  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidebar2 {padding-top: 15px;}
+    .sidebar2 a {font-size: 18px;}
+  }
+
+  /*******************************media query*********************************/
+
+  @media (max-width: 1200px){
+   .design-button {
+	margin-left: 220px;
+  }
+
+  .sell {
+  	width: 300px;
+  }
+}
+
+@media (max-width: 992px){
+.icon{
+      width: 49px;
+      height: 49px;
+ }
+ .design-button{
+ 	margin-left: 100px;
+ }
+
+.icon-box .para{
+      margin-left: 150px;
+      
+}
+.right {
+	height: auto;
+}
+.sell {
+  	width: 330px;
+  }
+}
+
+
+@media (max-width: 768px){
+	   .design-button {
+	   margin-left: 50px;
+	   margin-top: 40px;
+}
+.sell {
+  	width: 240px;
+  }
+.icon{
+      width: 49px;
+      height: 49px;
+ }
+
+.icon-box .para{
+      margin-left: 280px;
+}
+
+
+.icon-box .para{
+	  font-size: 20px;
+      margin-left: 70px;
+      font-weight: 600;
+      color: #000;
+    }
+.view{
+	margin-top: 25px;
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+}
+
+.view-para p {
+	font-size: 15px;
+}
+
+.icon-box .para{
+	  margin-left: 90px;
+  }
+
+.div-3-heading h6{
+	margin-bottom: 0px;
+}
+
+}
+
+
+@media (max-width: 576px){
+	.sell {
+  	width: 440px;
+  }
+.design-heading {
+	padding-top: 15px;
+	padding-left: 120px;
+
+}
+.design-heading h3{
+	font-size: 27px;
+}
+
+.design-heading p {
+	font-style: normal;
+	font-size: 14px;
+	color: #fff;
+}
+.design-button{
+	margin-left: 150px;
+	margin-bottom: 25px;
+	margin-top: -20px;
+}
+.icon{
+	  box-sizing: border-box;
+      width: 36px;
+      height: 36px;
+      padding: 20px;
+ }
+.box{
+      padding: 10px 10px;
+}
+
+.design-heading {
+	padding: 15px 0px;
+	padding-left: 120px; 
+	margin-bottom: 5px;
+}
+.design-button {
+	
+	margin-left: 150px;
+}
+
+.icon-box .para{
+      margin-left: 60px;
+      
+}
+
+@media (max-width: 490px){
+
+.sell {
+  	width: 340px;
+  }
+.icon-box{
+     
+    }
+.icon-box .para{
+	  font-size: 25px;
+      margin-left: 170px;
+      font-weight: 600;
+      color: #000;
+}
+.icon{
+      width: 64px;
+      height: 64px;
+      background-color: blue;
+      color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 50%;
+      font-size: 22px;
+    }
+}
+
+@media (max-width: 375px){
+.sell {
+  	width: 240px;
+  }
+.design-heading {
+	padding-top: 5px;
+	padding-left: 30px;
+}
+.design-heading h3{
+	font-size: 24px;
+}
+.design-heading p {
+	font-style: normal;
+	font-size: 13px;
+}
+.design-button{
+	margin-left: 50px;
+	margin-bottom: 15px;
+	margin-top: -20px;
+}
+.icon-box .para{
+	 margin-left: 80px;
+      
+}
+}
+
+}

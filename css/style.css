@@ -1,0 +1,629 @@
+*{
+	padding: 0px;
+	margin:0px;
+}
+.logo {	
+	width: 179px;
+	height: 100px;
+	position: absolute;
+    left: 550px;
+	top: 121px;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+}
+.logo img {
+	width: 54px;
+	height: 58px;
+}
+.logo h2{
+	font-family: poppins;
+	font-style: normal;
+	font-weight:700;
+	font-size: 28px;
+	line-height: 14px;
+	color: #000000;
+	margin-top: 25px;
+}
+.sign-up-details{
+	position: absolute;
+	width: 368px;
+	height: 351px;
+	left: 456px;
+	top: 272px;
+}
+.form-floating i{
+ float: right;
+ font-size: 20px;
+ color: #d2dae2;
+ margin-top: -45px;
+ margin-right: 20px;
+}
+.form-floating .form-control{
+	height:  68px;
+	background-color: #f8f8f8;
+	color: #2251FF;
+	font-size: 14px;
+	font-weight: 700px;
+	font-weight: normal;
+}
+.sign-up-details .btn{
+	text-decoration: none;
+	background:linear-gradient(to right,#2251FF,#89D2DC);
+	color: #fff;
+	width: 150px;
+	height: 45px;
+	text-align: center;
+	margin-top: 25px;
+	float: left;
+	border-radius: 5px;
+	border:none;
+}
+.sign-up-details .btn a {
+	color: #fff;
+	text-decoration: none;
+}
+.sign-up-details p{
+	float: left;
+	margin-top: 35px;
+	margin-left: 15px;
+	color: grey;
+	font-size: 14px;
+}
+.sign-up-details .click{
+  margin-top: 33px;	
+}
+.sign-up-details .click a{
+  color: blue;
+  font-size: 13px;
+  font-weight: 700;
+  text-decoration: none;
+  margin-left: 10px;	
+}
+
+/***************************media quary start***********************/
+
+@media (max-width:1200px){
+.logo {	
+	width: 179px;
+	height: 100px;
+	position: absolute;
+    left: 400px;
+	top: 121px;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+}
+.sign-up-details{
+	position: absolute;
+	width: 368px;
+	height: 351px;
+	left: 306px;
+	top: 272px;
+}	
+}
+@media (max-width:992px){
+.logo {	
+	width: 179px;
+	height: 100px;
+	position: absolute;
+    left: 350px;
+	top: 121px;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+}
+.sign-up-details{
+	position: absolute;
+	width: 368px;
+	height: 351px;
+	left: 256px;
+	top: 272px;
+}	
+}
+
+@media (max-width: 768px){
+.logo {	
+	width: 179px;
+	height: 100px;
+	position: absolute;
+    left: 270px;
+	top: 121px;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+}
+.sign-up-details{
+	position: absolute;
+	width: 368px;
+	height: 351px;
+	left: 186px;
+	top: 272px;
+}
+}
+@media (max-width: 576px){
+.logo {	
+	width: 179px;
+	height: 100px;
+	position: absolute;
+    left: 150px;
+	top: 121px;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+}
+.sign-up-details{
+	position: absolute;
+	width: 368px;
+	height: 351px;
+	left:81px;
+	top: 272px;
+}
+}
+@media (max-width: 475px){
+.logo {	
+	width: 179px;
+	height: 100px;
+	position: absolute;
+    left: 150px;
+	top: 121px;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+}
+.sign-up-details{
+	position: absolute;
+	width: 368px;
+	height: 351px;
+	left: 55px;
+	top: 272px;
+}
+}
+
+@media (max-width: 375px){
+.logo {	
+	width: 179px;
+	height: 100px;
+	position: absolute;
+    left: 100px;
+	top: 121px;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+}
+.sign-up-details{
+	position: absolute;
+	width: 348px;
+	height: 351px;
+	left: 15px;
+	right: 15px;
+	top: 272px;
+}	
+}
+
+
+/**************************************create your accont css*********************************/
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+.left-log img{
+	border-radius: 7px;
+}
+.right-log {
+	padding-top : 50px; 
+}
+.logo-log img{
+  width: 27.50px;
+  height: 30.07px;
+  float: left;
+  margin-left: 200px;
+}
+.logo-log h3{
+	font-size: 20px;
+	float: left;
+	margin-left: 10px;
+	font-weight: 600;
+}
+.heading-log h2{
+	font-size: 30px;
+	margin-top: 45px;
+	margin-left: 150px;
+	font-weight: 600;
+}
+.heading-log p {
+	color: #000;
+	font-weight: 600;
+	font-size: 15px;
+	margin-left: 180px;
+	margin-top: -2px;
+}
+.form-floating-log {
+	margin-left: 115px;
+}
+.form-floating-log label {
+	padding-left: 20px;
+	color: #000000;
+}
+.form-floating-log .form-control-log {
+	height: 65px;
+	width: 360px;
+	padding-left: 18px;
+	border-radius: 6px;
+	color: #2251ff;
+	font-size: 12px;
+	box-shadow: 0px 5px 12px rgba(0,0,0,0.05);
+	background-color: #F8F8F8;
+}
+
+.form-floating-log i{
+	color: grey;
+    float: right;
+    margin-right: 205px;
+    margin-top: -42px;
+}
+.form-floating-log .form-control-log:hover {
+	border:  2px solid #2251ff;
+	border-radius: none;
+}
+.form-floating-log{
+	margin-top: 50px;
+}
+.btn-log{
+	text-decoration: none;
+	background:linear-gradient(to right,#2251FF,#89D2DC);
+	color: #fff;
+	width: 150px;
+	height: 45px;
+	text-align: center;
+	float: left;
+	border-radius: 5px;
+	border:none;
+	padding-top: 8px;
+	margin-left: 116px;
+	margin-top: 40px;
+	transition: 0.5s ease;
+}
+
+.btn-log:hover{
+	background: linear-gradient(to left,#2251ff, #89D2DC); 
+}
+.btn-log a {
+	color: #fff;
+	text-decoration: none;
+} 
+p{
+	float: left;
+	margin-top: 50px;
+	margin-left: 15px;
+	color: grey;
+	font-size: 14px;
+}
+.click-log{
+  margin-top: 48px;	
+}
+ .click-log a{
+  color: blue;
+  font-size: 13px;
+  font-weight: 700;
+  text-decoration: none;
+  margin-left: 10px;	
+}
+
+
+@media (max-width:1200px){
+.form-floating-log  i{
+	color: grey;
+    float: right;
+    margin-right: 120px;
+    margin-top: -42px;
+}
+}
+
+@media (max-width: 992px){
+
+.left-log img {
+	width: 100vw;
+	height: 75vh;
+	background-size: cover;
+	background-position: center;
+}
+.logo-log{
+ padding: 5px auto; 	
+} 
+.logo-log img{
+	width: 45px;
+	height: 36px;
+    margin-left: 285px;
+    margin-top: 20px;
+}
+.logo-log h3{
+	margin-left: 12px;
+	margin-top: 25px;
+	font-size: 24px;
+}
+.heading-log h2{
+	font-size: 30px;
+	margin-top: 80px;
+	margin-left: 245px;
+}
+.heading-log p {
+	margin-left: 275px;
+}
+.form-floating-log {
+  margin-left: 180px;
+  margin-top: 50px;
+}
+#one-log{
+	margin-top: 25px;
+	margin-bottom: 30px;
+}
+.form-floating-log .form-control-log:hover {
+	border:  2px solid #2251ff;
+	border-radius: none;
+}
+
+.btn-log{
+ 	width: 180px;
+ 	height: 50px;
+	margin-left: 180px;
+	margin-top: 40px;
+}
+.btn-log a {
+	padding: 5px;
+}
+.form-floating-log .form-control-log{
+	width: 450px;
+}
+
+p{
+  font-size: 14px;
+  margin-top: 50px;
+  margin-left: 20px;
+}
+.click-log{
+  margin-top: 48px;
+
+}
+.click-log a{
+	margin-left: 16px;
+	font-size: 14px;
+}
+.form-floating-log i {
+	margin-right: 360px;
+}
+}
+
+@media (max-width:768px){
+
+.left-log img{
+	border-radius: 7px;
+}
+.right-log {
+	padding-top : 50px; 
+}
+ 
+.logo-log img{
+  width: 33.50px;
+  height: 36.07px;
+}
+.logo-log h3{
+	font-size: 25px;
+	margin-top:25px;
+	margin-left: 10px;
+}
+.heading-log h2{
+	margin-top: 80px;
+	margin-left: 255px;
+}
+.heading-log p {
+	margin-left: 280px;	
+}
+.form-floating-log {
+	margin-left: 175px;
+}
+.form-floating-log .form-control-log {
+	height: 65px;
+	width: 420px;
+}
+#one-log{
+	margin-top: 0px;
+	margin-bottom: 30px;
+}
+
+.form-floating-log  i{
+    margin-right: 170px;
+    margin-top: -42px;
+}
+
+.form-floating-log{
+	margin-top: 50px;
+}
+ .btn-log{
+	width: 160px;
+	float: left;
+	border-radius: 5px;
+	margin-left: 175px;
+	margin-top: 40px;
+}
+
+.click-log{
+	margin-top: 50px;
+}
+ .click-log a{
+ 	font-size: 16px;
+    margin-left: 16px;	
+}
+
+ p{
+	margin-top: 50px;
+	margin-left: 20px;
+	color: grey;
+	font-size: 16px;
+}
+	
+}
+
+@media (max-width:576px){
+
+.left-log img{
+	border-radius: 7px;
+}
+.right-log {
+	padding-top : 50px; 
+	height: 500px;
+}
+.logo-log{
+ padding: 5px auto; 	
+} 
+.logo-log img{
+  width: 27.50px;
+  height: 30.07px;
+  float: left;
+  margin-left: 190px;
+}
+.logo-log h3{
+	font-size: 20px;
+	float: left;
+	margin:20px;
+	margin-left: 10px;
+	font-weight: 600;
+}
+.heading-log h2{
+	font-size: 30px;
+	margin-top: 64px;
+	margin-left: 140px;
+	font-weight: 700;
+}
+.heading-log p {
+	margin-left: 170px;
+	margin-top: -2px;
+}
+.form-floating-log {
+	margin-left: 75px;
+}
+
+.form-floating-log label {
+	padding-left: 20px;
+	color: #000000;
+}
+.form-floating-log .form-control-log {
+	height: 65px;
+	width: 400px;
+	border-radius: 6px;
+	color: #2251ff;
+	font-size: 12px;
+	box-shadow: 0px 5px 12px rgba(0,0,0,0.05);
+	background-color: #F8F8F8;
+}
+#one-log{
+	margin-top: 0px;
+	margin-bottom: 30px;
+}
+
+.form-floating-log  i{
+	color: grey;
+    float: right;
+    margin-right: 100px;
+    margin-top: -42px;
+}
+.form-floating-log{
+	margin-top: 60px;
+}
+ .btn-log{
+	width: 160px;
+	float: left;
+	border-radius: 5px;
+	margin-left: 75px;
+	margin-top: 40px;
+}
+.click-log{
+	margin-top: 50px;
+}
+ .click-log a{
+ 	font-size: 16px;
+  margin-left: 16px;	
+}
+p{
+	margin-top: 50px;
+	margin-left: 20px;
+	color: grey;
+	font-size: 16px;
+}
+}
+@media (max-width:375px){
+
+.right-log {
+	padding-top : 20px; 
+}
+.logo-log img{
+  width: 39.50px;
+  height: 42.07px;
+  margin-left: 65px;
+}
+.logo-log h3{
+	font-size: 25px;
+	margin-top:25px;
+}
+.heading-log h2{
+	font-size: 30px;
+	margin-top: 80px;
+	margin-left: 25px;
+}
+.heading-log p {
+	font-size: 14px;
+	margin-left: 55px;
+	margin-top: -2px;
+}
+.form-floating-log {
+	margin-left: 10px;
+}
+.form-floating-log .form-control-log {
+	height: 65px;
+	width: 300px;
+}
+#one-log{
+	margin-top: 13px;
+	margin-bottom: 30px;
+}
+
+.form-floating  i{
+	color: grey;
+    float: right;
+    margin-right: 60px;
+    margin-top: -42px;
+}
+.form-floating-log{
+	margin-top: 30px;
+}
+.form-floating-log .form-floating1{
+	margin-top: 13px!important;
+}
+ .btn-log{
+	width: 100px;
+	height: 40px;
+	float: left;
+	padding-top: 6px;
+	border-radius: 5px;
+	margin-left: 20px;
+	margin-top: 30px;
+}
+.click-log{
+	margin-top: 37px;
+}
+ .click-log a{
+ 	font-size: 13px;
+   margin-left: 10px;	
+}
+p{
+	margin-top: 40px;
+	margin-left: 5px;
+	color: grey;
+	font-size: 14px;
+}
+}
+
+
+
+/**************************************create your accont css******************************

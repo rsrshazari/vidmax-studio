@@ -1,0 +1,134 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+.upgradeBox{
+	background-color: blue;
+	width: 600px;
+	height: 350px;
+	border-radius: 10px;
+	padding:10px;
+	box-sizing: border-box;
+	margin: 150px auto;
+}
+
+#upgrade-icon{
+	display: flex;
+	justify-content: flex-end;
+	
+}
+#upgrade-icon i {
+	margin-right: 15px;
+	font-size: 25px;
+	color: #fff;
+}
+.upgrades{
+	height: 300px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: center;
+	padding-bottom: 20px;
+}
+.upgrades #upgrade-heading{
+	font-weight: 700;
+	color: #fff;
+	font-size: 25px;
+	font-family: helvetica;
+	margin-bottom: 5px;
+}
+
+#upgrade-button a{
+	text-decoration: none;
+	line-height: 50px;
+	color: #000000;
+	font-weight: 700;
+	font-size: 14px;
+	margin-left: 10px;
+}
+.upgrades #upgrade-para{
+	font-size: 14px;
+	color: #fff;
+	letter-spacing: 0.5px;
+	font-weight: 600;
+	margin-bottom: 20px;
+}
+#upgrade-button {
+	background: #fff;
+	width: 200px;
+	height: 50px;
+	border-radius: 5px;
+	text-align: center;
+}
+#upgrade-button i {
+	font-size: 20px;
+}
+
+@media (max-width:768px){
+	.upgradeBox{
+		width: 500px;
+		height: 250px;
+		margin: 100px auto;
+	}
+	.upgrades{
+		height: 210px;
+	}
+	#upgrade-button {
+		width: 170px;
+		height: 40px;
+	}
+	#upgrade-button a{
+		line-height: 40px;
+		font-size: 13px;
+		margin-left: 5px;
+	}
+	.upgrades #upgrade-para{
+		font-size: 12px;
+		font-weight: 600;
+		margin-bottom: 20px;
+	}
+	.upgrades #upgrade-heading{
+		font-size: 22px;
+		font-family: helvetica;
+		margin-bottom: 5px;
+	}
+}
+
+@media (max-width:576px){
+	.upgradeBox{
+		width: 400px;
+		height: 200px;
+		margin: 50px auto;
+	}
+	.upgrades{
+		height: 180px;
+		padding-bottom: 30px;
+	}
+	.upgrades #upgrade-para{
+		font-size: 12px;
+		text-align: center;
+		margin-bottom: 20px;
+	}
+}
+
+@media (max-width:375px){
+	.upgradeBox{
+		width: 330px;
+		height: 200px;
+		margin: 50px auto;
+	}
+	.upgrades{
+		height: 180px;
+		padding-bottom: 20px;
+	}
+	.upgrades #upgrade-para{
+		font-size: 12px;
+		text-align: center;
+		margin-bottom: 15px;
+	}
+	#upgrade-icon i {
+		margin-right: 15px;
+		font-size: 16px;
+	}
+}

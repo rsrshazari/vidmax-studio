@@ -1,0 +1,322 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+.main{
+	background: #e4f6f8;
+	width: 100%;
+	height: 1000px;
+}
+.icon-box h2{
+	font-size: 25px;
+	margin-top: 3px;
+}
+.parts{
+	width: 700px;
+	height: 1200px;
+	margin: 100px auto;
+}
+
+.main .icon-box .icon{
+	margin: 0 auto;
+	background-color: #D4D5D7;
+	width: 43px;
+	height: 43px;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 22px;
+	transition: 0.3s;
+}
+.main .icon-box .icon:hover{
+ background-color: #2251ff;
+ color: #fff;
+}
+.main .icon-box p {
+  text-align: center;
+  font-size: 15px;
+  font-weight: 600;
+  color: grey;
+  margin-top: -20px;
+}
+
+.parts #heading{
+	text-align: center;
+	font-size: 22px;
+	font-weight: 600;
+	margin: 20px 0px;	
+}
+
+.form-background {
+	background-color:#fff;
+	padding: 50px 100px;
+    border-radius: 7px;
+	width: 100%
+	height:1000px;
+	box-shadow: 5px 0px 15px 5px rgba(0,0,0,0.05);
+}
+.form-group {
+ font-size: 14px;
+ font-weight: 600;
+}
+
+.form-background .form-control{
+	font-color:#263138;
+	margin-top: 8px;
+	margin-bottom: 20px;
+	box-shadow: 0px 0px 20px 3px rgba(0,0,0,0.05);
+}
+#upload_label{
+	width: 150px;
+	height: 50px;
+}
+
+small{
+ margin-left: 20px;
+ font-size: 12px;
+}
+
+.upload__video {
+width: 100%;
+background-color: white;
+color:grey;
+font-family: sans-serif;
+border-radius: 0.3rem;
+cursor: pointer;
+margin-top: 1rem;
+/*margin-left: 50px;*/
+font-size: 4rem;
+border:1px solid #DEDEDE;
+box-shadow: 2px 2px 4px 2px rgba(0,0,0,0.05);
+text-align: center;
+}
+.upload__video > span > i {
+  /*margin-left: 70px;*/
+}.upload__video > p {
+  font-size: 1rem;
+}
+#upload_label p{
+	margin-top: 12px;
+}
+
+.upload__video:hover{
+	border: 1px solid #2251ff;
+	transition: 0.3s;
+}
+.upload__video:hover i {
+	color: #2251ff;
+	transition: 0.3s
+}
+.upload__video i{
+	font-size: 20px;
+	float: left;
+	margin-top: 14px;
+	margin-left: 10px;
+}
+.button{
+	float: right;
+	margin-top: 40px;
+}
+.button a{
+	border-radius: 7px;
+	color:#fff;
+	font-size: 15px;
+	text-decoration: none;
+	background:linear-gradient(to right, #1e86e8 10%,#7bb7ef);
+	padding: 10px 50px;
+}
+
+@media (max-width:992px){
+   .parts{
+	 width: 600px;
+	 height: 1200px;
+	 margin: 100px auto;
+}
+.button{
+	margin-top: 40px;
+	float: right;
+}
+.button a{
+	border-radius: 7px;
+	color:#fff;
+	font-size: 15px;
+	text-decoration: none;
+	background:linear-gradient(to right, #1e86e8 10%,#7bb7ef);
+	padding: 10px 50px;
+}
+
+}
+
+@media (max-width:576px){
+.parts{
+	 width: 500px;
+	 height: 1200px;
+	 margin: 100px auto;
+}
+.form-background {
+   padding: 50px 50px;
+}
+
+.form-group {
+ font-size: 20px;
+}
+.main .icon-box .icon{
+	width: 64px;
+	height: 64px;
+}
+.main .icon-box p {
+  font-size: 18px;
+}
+.parts #heading{
+	font-size: 30px;
+	font-weight: 600;
+	margin: 30px 0px;	
+}
+.form-background {
+	padding: 50px 50px;
+}
+.form-background .form-control{
+	margin-top: 8px;
+	margin-bottom: 20px;
+}
+#upload_label{
+	width: 175px;
+	height: 50px;
+}
+.button{
+	float: right;
+	margin-top: 40px;
+}
+.button a{
+	border-radius: 7px;
+	color:#fff;
+	font-size: 20px;
+	text-decoration: none;
+	padding: 10px 50px;
+}
+
+small{
+ margin-left: 20px;
+ font-size: 12px;
+}
+}
+
+@media (max-width: 376px){
+.parts{
+	 width: 400px;
+	 height: 1200px;
+	 margin: 50px auto;
+}
+  .form-background {
+   padding: 0px 25px;
+}
+  .form-group {
+ font-size: 18px;
+}
+
+.form-background .form-control{
+	margin-top: 0px;
+	margin-bottom: 10px;
+	box-shadow: 0px 0px 20px 3px rgba(0,0,0,0.05);
+}
+
+.main .icon-box .icon{
+	width: 49px;
+	height: 49px;
+}
+  .main .icon-box p {
+  font-size: 16px;
+}
+  .parts #heading{
+	font-size: 30px;
+	font-weight: 600;
+	margin-top:-10px;
+	margin-bottom: 30px;	
+}
+  .form-background {
+	padding: 20px 20px;
+}
+  .form-background .form-control{
+	margin-top: 8px;
+	margin-bottom: 20px;
+}
+  #upload_label{
+	width: 150px;
+	height: 50px;
+}
+  .button{
+	float: right;
+	margin-top: 30px;
+}
+  .button a{
+	border-radius: 6px;
+	font-size: 16px;
+	padding: 10px 30px;
+}
+   small{
+ margin-left: 20px;
+ font-size: 12px;
+}
+.parts{
+	width: 700px;
+	height: 1200px;
+	margin: 20px auto;
+}
+.icon-box p {
+	margin-bottom: 25px;
+}
+.upload__video i{
+	font-size: 16px;
+	margin-left: 8px;
+}
+
+}
+
+/************************Second Page CSS start***************************/
+
+.form-background .form-group-btn a{
+   text-decoration: none;
+   color: #fff;
+   display: block;
+   border-radius: 7px;
+   margin-top: 30px;
+   background:#2251ff;
+   text-align: center;
+   padding: 12px 0px; 
+}
+
+
+.back{
+	float: left;
+	margin-top: 40px;
+}
+.back a{
+	text-decoration: none;
+	color: #5a5a5a;
+}
+
+
+/*************************Second page css end******************************/
+
+.form-background .form-group-btn3 a{
+   text-decoration: none;
+   width: 130px;
+   font-size: 14px;
+   color: #fff;
+   display: block;
+   border-radius: 7px;
+   margin-top: 30px;
+   background:#2251ff;
+   text-align: center;
+   padding: 12px 0px;
+   margin-left: 95px; 
+}
+
+
+
+/****************************third page css start************************/
+
+
+/*********************************third page css end*************************/
